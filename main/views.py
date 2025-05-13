@@ -1,4 +1,3 @@
-# main/views.py
 from django.shortcuts import render
 
 def mainpage(request):

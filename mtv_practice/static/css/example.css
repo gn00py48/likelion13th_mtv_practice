@@ -1,20 +1,24 @@
 body {
-    background-color: #f0f8ff;
+    background-color: #000000;
     font-family: sans-serif;
     text-align: center;
-    padding: 2rem;
+    padding: 1rem;
 }
 
 h1 {
-    color: #3366cc;
+    color: #FE7743;
 }
 
 button {
     padding: 0.5rem 1rem;
     font-size: 1rem;
-    background-color: #4caf50;
-    color: white;
+    background-color: #EFEEEA;
+    color: 273F4F;
     border: none;
     border-radius: 6px;
     cursor: pointer;
+}
+
+button:hover{
+    scale: 1.001;
 }
