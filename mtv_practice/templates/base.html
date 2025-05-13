@@ -1,0 +1,16 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>MTV Template 연습</title>
+    <link rel="stylesheet" href="{% static 'css/example.css' %}">
+</head>
+<body>
+    {% include 'shared/navbar.html' %}
+    <div class="main-content">
+        {% block content %} {% endblock %}
+    </div>
+    <script src="{% static 'js/example.js' %}"></script>
+</body>
+</html>
